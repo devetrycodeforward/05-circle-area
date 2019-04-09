@@ -8,6 +8,6 @@ def area_of_circle(r):
     area = (r ** 2)*(math.pi)
     return area
 
-radius = int(input("What is the radius of the circle?")) 
+radius = 3
 result = area_of_circle(radius)
 print ("The area of the circle is ", result)
