@@ -14,20 +14,3 @@ def main():
          
 if __name__ == "__main__":
     main()
-
-# Below are some tests which can give you an indication that your code seems to be correct.
-
-from test import testEqual
-
-t = area_of_circle(0)
-testEqual(t, 0)
-t = area_of_circle(1)
-testEqual(t,math.pi)
-t = area_of_circle(100)
-testEqual(t, 31415.926535897932)
-t = area_of_circle(-1)
-testEqual(t, math.pi)
-t = area_of_circle(-5)
-testEqual(t, 25 * math.pi)
-t = area_of_circle(2.3)
-testEqual(t, 16.61902513749)
