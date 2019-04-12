@@ -5,6 +5,6 @@ import math
 pi = math.pi
 def area_of_circle(r):
     area = pi* r**2
-    return print(area)
+    return area
 r = float (input("The radius of the circle is:"))
 area_of_circle(r)
